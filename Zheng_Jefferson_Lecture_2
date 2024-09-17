@@ -42,7 +42,6 @@ int main() {
 }
 
 /*
-PS C:\Users\jefferson.zheng23\github-classroom\SITHS-College-Now-Beigelman\lecture-2-data-types-and-variables-MythicalPhantom> cd "c:\Users\jefferson.zheng23\github-classroom\SITHS-College-Now-Beigelman\lecture-2-data-types-and-variables-MythicalPhantom\" ; if ($?) { g++ Zheng_Jefferson_Lecture_2.cpp -o Zheng_Jefferson_Lecture_2 } ; if ($?) { .\Zheng_Jefferson_Lecture_2 }
 integer1 = 1
 inches = 100
 decimal1 = 1
