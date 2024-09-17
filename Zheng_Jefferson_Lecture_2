@@ -32,7 +32,7 @@ int main() {
     cout << inches % 12 << " inch(es)" << endl << endl;                             //Prints inch(es)
 
     cout << characterA << " is 'A', but " << characterB << " is 'B'." << endl;      //Prints A is 'A', but B is 'B'.
-    cout << characterA << " comes before " << characterB << "!" << endl << endl;    //Prints A comes before B!
+    cout << "(characterA < characterB) : " << (characterA < characterB) << "!" << endl << endl;
 
     cout << "2 + 3.5 = " << 2 + 3.5 << endl;                                        //Prints 2 + 3.5 = 5.5
     cout << "6 / 4 + 3.9 = " << 6 / 4 + 3.9 << endl;                                //Prints 6 / 4 + 3.9 = 4.9 (Incorrect for us)
@@ -40,3 +40,24 @@ int main() {
 
     return 0;
 }
+
+/*
+PS C:\Users\jefferson.zheng23\github-classroom\SITHS-College-Now-Beigelman\lecture-2-data-types-and-variables-MythicalPhantom> cd "c:\Users\jefferson.zheng23\github-classroom\SITHS-College-Now-Beigelman\lecture-2-data-types-and-variables-MythicalPhantom\" ; if ($?) { g++ Zheng_Jefferson_Lecture_2.cpp -o Zheng_Jefferson_Lecture_2 } ; if ($?) { .\Zheng_Jefferson_Lecture_2 }
+integer1 = 1
+inches = 100
+decimal1 = 1
+decimal2 = 2
+characterB = B
+characterA = A
+yes = 1
+text = text
+
+100 inch(es) = 8 feet (foot) and 4 inch(es)
+
+A is 'A', but B is 'B'.
+(characterA < characterB) : 1!
+
+2 + 3.5 = 5.5
+6 / 4 + 3.9 = 4.9
+5.4 * 2 - (13.6 + 18 / 2) = -11.8
+*/
