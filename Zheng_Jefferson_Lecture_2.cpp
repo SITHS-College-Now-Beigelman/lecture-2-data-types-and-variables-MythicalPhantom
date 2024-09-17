@@ -1,8 +1,7 @@
-/*
-Jefferson Zheng
-Lecture 2
-September 16, 2024
-*/
+//Jefferson Zheng
+//Lecture 2
+//September 16, 2024
+
 
 #include <iostream>
 #include <string>
